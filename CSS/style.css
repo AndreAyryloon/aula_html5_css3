@@ -1,0 +1,30 @@
+body {
+    background: red;
+    background: yellow;
+    /*Margem do corpo do site*/
+    margin-left: 25px;
+    margin-right: 100px;
+}
+
+header {
+    margin-top: 100px; /*margem TOP do header Minha página*/
+}
+
+/*conf de css nas tags h1*/
+h1 {
+    color: red;
+    font-family: fantasy;
+}
+
+/*conf de css nos paragrafos*/
+p {
+    font-size: 18px;
+}
+
+/*referenciado da classe criada na imagem da div serviço
+para manusear apenas aquelas imagens sem afetar as demais*/
+.img_padrao {
+    margin-bottom: 20px;
+    /*posso configurar o tamanho da imagem aqui tambem ou no cod html*/
+    width: 300px;
+}
